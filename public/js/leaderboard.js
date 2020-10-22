@@ -52,7 +52,7 @@ const githubApiUrl =
                               var cell4 = row.insertCell(3);
                               var cell5 = row.insertCell(4);
                               var username = user.github.substr(19);
-                              var link = "https://geekhaven.github.io/Geektoberfest-Main/profile.html?username="+username;
+                              var link = "https://shahidsiddiqui786.github.io/Geektoberfest-Main/profile.html?username="+username;
                               // var link = "http://127.0.0.1:5500/Geektoberfest-Main/profile.html?username="+username;
 
                               cell1.innerHTML = rank;
