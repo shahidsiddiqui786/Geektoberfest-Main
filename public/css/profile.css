@@ -86,7 +86,7 @@ body{
     display: none;
 }
 .fetchLoader {
-    background: url("../img/datafetcher.gif") center;
+    background: url("../img/pingpong.gif") center;
     height: 400px;
     width: 90%;
     margin: auto;
