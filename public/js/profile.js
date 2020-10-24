@@ -103,7 +103,7 @@ let params = new URLSearchParams(document.location.search.substring(1));
         return
       }
       else {
-        window.location.assign(`https://geekhaven.github.io/Geektoberfest-Main/profile.html?username=${userRequested}`)
+        window.location.assign(`https://livegectoberfestmain.netlify.app/profile.html?username=${userRequested}`)
       document.getElementById('user').value = ''
       }
     })

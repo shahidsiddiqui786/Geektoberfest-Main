@@ -216,7 +216,8 @@ body.dark-theme .profile-card{
 /* ===========-----------------Search Bar-------------==============================*/
 .searchOuter {
     padding-bottom: 1rem;
-    padding-right: 2rem;
+    position: relative;
+    top: 100px;
 }
 .searchbar{
   margin-bottom: auto;
