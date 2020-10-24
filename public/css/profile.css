@@ -230,6 +230,9 @@ body.dark-theme .profile-card{
     .searchOuter {
         margin-bottom: 3rem !important;
     }
+    .searchbar:hover > .search_input {
+        width: 60vw !important;
+    }
 }
 .searchbar{
   margin-bottom: auto;
