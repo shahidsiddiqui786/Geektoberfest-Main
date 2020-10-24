@@ -254,7 +254,7 @@ body.dark-theme .profile-card{
 
   .searchbar:hover > .search_input{
   padding: 0 10px;
-  width: 60vw;
+  width: 30vw;
   caret-color:red;
   transition: width 0.4s linear;
   }
