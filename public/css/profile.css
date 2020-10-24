@@ -215,9 +215,21 @@ body.dark-theme .profile-card{
 
 /* ===========-----------------Search Bar-------------==============================*/
 .searchOuter {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
     position: relative;
     top: 100px;
+}
+
+@media screen and (max-width:985px) {
+    .searchOuter {
+        margin-top: 1rem !important;
+    }
+}
+@media screen and (max-width:445px) {
+    .searchOuter {
+        margin-bottom: 3rem !important;
+    }
 }
 .searchbar{
   margin-bottom: auto;
@@ -234,7 +246,7 @@ body.dark-theme .profile-card{
   border: 0;
   outline: 0;
   background: none;
-  width: 6rem;
+  width: 10rem;
   caret-color:transparent;
   line-height: 40px;
   transition: width 0.4s linear;
